@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class UserListComponent implements OnInit {
   names : string[];
   constructor() {
-    this.names = ['A','B','C','D'];
+    this.names = ['John','Paul','Caroline','Stuart'];
    }
 
   ngOnInit(): void {
